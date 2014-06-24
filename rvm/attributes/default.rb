@@ -20,3 +20,9 @@ default[:rvm][:version] = :stable
 default[:rvm][:track_updates] = false
 
 
+case node[:platform_family]
+when "debian"
+  default[:rvm][:packages] = %w{ ruby-dev }
+when "rhel"
+  default[:rvm][:packages] = %w{ ruby-devel }
+end
