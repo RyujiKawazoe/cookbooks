@@ -31,6 +31,10 @@ end
 # set this for compatibilty with other people's recipes
 node.default[:languages][:ruby][:ruby_bin] = find_ruby
 
+node[:rvm][:packages].each do |pkg|
+  package pkg
+end
+
 gem_package "chef" do
   gem_binary "/usr/local/rvm/bin/rvm-gem.sh"
   only_if "test -e /usr/local/rvm/bin/rvm-gem.sh"
