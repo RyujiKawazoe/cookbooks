@@ -98,5 +98,5 @@
   "recipes": {
     "sudo": "Installs sudo and configures /etc/sudoers"
   },
-  "version": "0.9.1"
+  "version": "1.0.1"
 }
