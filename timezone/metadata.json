@@ -31,7 +31,7 @@
   "replacing": {
   },
   "description": "Configure the system timezone on Debian or Ubuntu.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "maintainer_email": "james@sociable.co.nz",
   "groupings": {
   },

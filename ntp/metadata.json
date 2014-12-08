@@ -99,5 +99,5 @@
   "recipes": {
     "ntp": "Installs and configures ntp either as a server or client"
   },
-  "version": "0.8.2"
+  "version": "1.1.1"
 }

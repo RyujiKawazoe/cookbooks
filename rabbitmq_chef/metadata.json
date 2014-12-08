@@ -44,5 +44,5 @@
   "recipes": {
     "rabbitmq_chef": "Install and configure rabbitmq specifically for a Chef Server"
   },
-  "version": "0.10.3"
+  "version": "0.10.4"
 }
