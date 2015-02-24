@@ -1,1 +1,1 @@
-default[:tz] = 'JST'
+default[:tz] = 'Asia/Tokyo'
