@@ -1,1 +1,1 @@
-default[:tz] = 'UTC'
+default[:tz] = 'JST'
